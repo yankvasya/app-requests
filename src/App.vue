@@ -1,8 +1,17 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <h1>App</h1>
+  <v-app>
+    <v-main>
+      <v-row justify="center">
+        <h1>App Requests</h1>
+      </v-row>
+    </v-main>
+  </v-app>
 </template>
 
-<style scoped />
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App',
+})
+</script>
